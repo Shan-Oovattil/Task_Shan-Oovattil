@@ -1,8 +1,8 @@
 Total price calculation with good performance
 ------------------------------------------------
 def calculate_total_price(prices, discount):
-  if discount > 100 or discount < 1:
-    raise ValueError("Discount must be between 1 and 100")
+  if discount > 100 or discount < 0:
+    raise ValueError("Discount must be between 0 and 100")
 
   products_length = len(prices)
   if products_length > 100 or products_length < 1:
