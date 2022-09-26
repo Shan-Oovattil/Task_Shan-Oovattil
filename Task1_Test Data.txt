@@ -1,6 +1,6 @@
 Test data
 ---------------------------------------------------------------------------------------
 print(calculate_total_price([1,2,100,4,100,5],10)) = 202
-print(calculate_total_price2([1,2,100,4,100,5],10)) = 202
-print(calculate_total_price_duplicate([1,2,100,4,100,5],10)) = 192
+print(calculate_total_price2([1,2,100,4,100,5],10)) = 192
+print(calculate_total_price_duplicate([1,2,100,4,100,5],10)) = 202
 print(calculate_total_price2_duplicate([1,2,100,4,100,5],10)) = 192
